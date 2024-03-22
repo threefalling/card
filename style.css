@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.main {
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    gap: 2em;
+    justify-items: center;
+}
+
+.photo {
+    margin: 6em 1em 6em 10em;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.title {
+    font-family: "Monotype Corsiva";
+    color: #1f0b5c;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.5em;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-family: Bad Script;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.blue {
+    text-decoration: underline;
+    text-decoration-color: #1f40e0;
+}
+
+.green {
+    text-decoration: underline;
+    text-decoration-color: #1d991f;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.list-item {
+    padding: 0.5em;
+}
+
+#how .list-item::before {
+    content: "\25C8";
+}
+
+.nav, 
+.footer {
+    background-color: #1f40e0;
+}
+
+.yibo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}
+
+.yibo p {
+    margin: 0;
+}
+
+.yibo-photo {
+    border-radius: 50%;
+    height: 5%;
+    width: 5%;
+}
+
+#contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.footer .icons {
+    justify-content: center;
+}
+
+#contacts p {
+    padding: 1em;
+    margin: 0;
+}
